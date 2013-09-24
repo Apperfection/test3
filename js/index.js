@@ -1,5 +1,6 @@
 $( document ).ready(function() {
 
+$("#preaload").css("visibility", "hidden");
 //pre setup
 var previousIndex = 0;
 var wantedPosition = $("#ofecie").position();
@@ -44,7 +45,7 @@ function animateEle(e) {
 					$(front).addClass("back");
 					$(back).removeClass("back");
 					$(back).addClass("front");
-					$(front).empty();
+					$(front).append(document.getElementById( "preload" ));
 					$(".panelButton").on('click', animateEle);
 					$.getScript(hrefScipt);
 				});
@@ -66,7 +67,7 @@ function animateEle(e) {
 					$(front).addClass("back");
 					$(back).removeClass("back");
 					$(back).addClass("front");
-					$(front).empty();
+					$(front).append(document.getElementById( "preload" ));
 					$(".panelButton").on('click', animateEle);
 					$.getScript(hrefScipt);
 				});

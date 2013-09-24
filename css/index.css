@@ -19,8 +19,9 @@ body{
 	font-family: Helv;
 	src: url(HelveticaNeueBold.ttf);
 }
-#preload{
-	visibility: hidden;
+body:before {
+    content: url() url(res/1.jpg) url(res/2.jpg) url(res/3.jpg) url(res/4.jpg) url(res/5.jpg) url(res/6.jpg) url(res/7.jpg)url(res/8.jpg) url(res/9.jpg) url(res/10.jpg) url(res/11.jpg) url(res/12.jpg);
+    display:none;
 }
 #wrap{
 	width: 100%;
@@ -81,7 +82,6 @@ body{
 	line-height: 30px;
 	color: #cdcdcd;
 	text-align: center;
-	float: bottom;
 	bottom: 10px;
 	position: absolute;
 }
