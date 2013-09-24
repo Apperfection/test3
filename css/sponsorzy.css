@@ -1,0 +1,45 @@
+#leftTop{
+	top: 0;
+	left: 0;
+	height: 50%;
+	width: 50%;
+	background-color:  green;	
+	position: absolute;
+	border-top-left-radius:10px;
+}
+#rightTop{
+	top: 0;
+	right: 0;
+	height: 50%;
+	width: 50%;
+	background-color:  blue;	
+	position: absolute;
+	border-top-right-radius:10px;
+}
+#sponsorzy{
+	bottom: 0;
+	height: 50%;
+	width: 100%;
+	background-color:  white;	
+	position: absolute;
+	display: inline-block;
+	text-align: center;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	overflow: hidden;
+}
+#sponLogo{
+	height: 100%;
+	width: auto;
+	position: absolute;
+	margin:0 auto;
+	right: 10px;
+}
+.sponsor{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	height: 60px;
+	width: auto;
+}
