@@ -19,6 +19,9 @@ body{
 	font-family: Helv;
 	src: url(HelveticaNeueBold.ttf);
 }
+#preload{
+	visibility: hidden;
+}
 #wrap{
 	width: 100%;
 	height: 100%;

@@ -32,12 +32,13 @@ function animateEle(e) {
 
 	if($(this).index() > previousIndex) { //lower
 		previousIndex = $(this).index();
-		$(back).load(hrefPage, function(){
-			$(back).anim({translate3d: '100%,0,0'}, 0, 'none', function(){
+		//$(back).load(hrefPage, function(){
+			$(back).append(document.getElementById( "gal" ));
+			$(back).anim({translate3d: '0,100%,0'}, 0, 'none', function(){
 				$(front).css('z-index', 9);
 				$(back).css('z-index', 10);
 				$(back).anim({translate3d: '0,0,0'}, 0.6, 'ease-out');
-				$(front).anim({translate3d: '-100%,0,0'}, 0.6, 'ease-out', function(){
+				$(front).anim({translate3d: '0,-100%,0'}, 0.6, 'ease-out', function(){
 					$(front).anim({translate3d: '0,0,0'}, 0, 'none');
 					$(front).removeClass("front");
 					$(front).addClass("back");
@@ -48,17 +49,18 @@ function animateEle(e) {
 					$.getScript(hrefScipt);
 				});
 			});
-		});
+		//});
 	}
 
 	else { //higher
 		previousIndex = $(this).index();
-			$(back).load(hrefPage, function(){
-			$(back).anim({translate3d: '-100%,0,0'}, 0, 'none', function(){
+			//$(back).load(hrefPage, function(){
+			$(back).append(document.getElementById( "sp" ));
+			$(back).anim({translate3d: '0,-100%,0'}, 0, 'none', function(){
 				$(front).css('z-index', 9);
 				$(back).css('z-index', 10);
 				$(back).anim({translate3d: '0,0,0'}, 0.6, 'ease-out');
-				$(front).anim({translate3d: '100%,0,0'}, 0.6, 'ease-out', function(){
+				$(front).anim({translate3d: '0,100%,0'}, 0.6, 'ease-out', function(){
 					$(front).anim({translate3d: '0,0,0'}, 0, 'none');
 					$(front).removeClass("front");
 					$(front).addClass("back");
@@ -69,7 +71,7 @@ function animateEle(e) {
 					$.getScript(hrefScipt);
 				});
 			});
-		});
+		//});
 		} 
 	}
 
