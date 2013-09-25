@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no, maximum-scale=1.0, user-scalable=0">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="css/index.css">
 <link rel="stylesheet" type="text/css" href="css/ofecie.css">
 <link rel="stylesheet" type="text/css" href="css/galeria.css">
 <link rel="stylesheet" type="text/css" href="css/sponsorzy.css">
+<link rel="stylesheet" type="text/css" href="css/mapa.css">
 <script src="js/zepto.js"></script>
 <script src="js/index.js"></script>
 <script src="js/fastclick.js"></script>
@@ -25,7 +26,7 @@
 		<div 
 		class="panelButton theChoosenOne" 
 		id="ofecie" 
-		data-page="ofecieLoad" 
+		data-page="#ofecieLoad" 
 		data-script="ofecie.js"
 		data-num="1">
 			<span class="buttonText">O FECIE</span>
@@ -33,7 +34,7 @@
 		<div 
 		class="panelButton" 
 		id="program" 
-		data-page="programLoad" 
+		data-page="#programLoad" 
 		data-script="program.js"
 		data-num="2">
 			<span class="buttonText">PROGRAM</span>
@@ -41,7 +42,7 @@
 		<div 
 		class="panelButton" 
 		id="teatry" 
-		data-page="teatryLoad" 
+		data-page="#teatryLoad" 
 		data-script="teatry.js"
 		data-num="3">
 			<span class="buttonText">TEATRY</span>
@@ -49,7 +50,7 @@
 		<div 
 		class="panelButton" 
 		id="mapa" 
-		data-page="mapaLoad" 
+		data-page="#mapaLoad" 
 		data-script="mapa.js"
 		data-num="4">
 			<span class="buttonText">MAPA</span>
@@ -89,49 +90,66 @@
 		<div id="displayPic">
 			<div id="previousPic"></div>
 			<div id="nextPic"></div>
-			<img src="res/1.jpg" data-number="1" id="insidePic">
+			<img src="res/galeria/1d.png" data-number="1" id="insidePic">
 		</div>
 	<img src="res/rightFade.png" id="rightFade">
 	<img src="res/leftFade.png" id="leftFade">
 		<div id="sliderPic" class="scrolls">
 			<div id="inideSlider">
-				<img src="res/1.jpg" class="pic">
-				<img src="res/2.jpg" class="pic">
-				<img src="res/3.jpg" class="pic">
-				<img src="res/4.jpg" class="pic">
-				<img src="res/5.jpg" class="pic">
-				<img src="res/6.jpg" class="pic">
-				<img src="res/7.jpg" class="pic">
-				<img src="res/8.jpg" class="pic">
-				<img src="res/9.jpg" class="pic">
-				<img src="res/10.jpg" class="pic">
-				<img src="res/11.jpg" class="pic">
-				<img src="res/12.jpg" class="pic">
+				<img src="res/galeria/1.png" class="pic">
+				<img src="res/galeria/2.png" class="pic">
+				<img src="res/galeria/3.png" class="pic">
+				<img src="res/galeria/4.png" class="pic">
+				<img src="res/galeria/5.png" class="pic">
+				<img src="res/galeria/6.png" class="pic">
+				<img src="res/galeria/7.png" class="pic">
+				<img src="res/galeria/8.png" class="pic">
+				<img src="res/galeria/9.png" class="pic">
+				<img src="res/galeria/10.png" class="pic">
+				<img src="res/galeria/11.png" class="pic">
+				<img src="res/galeria/12.png" class="pic">
 			</div>
 		</div>
 	</div>
+
 	<!--Sponsorzy-->
 	<div id="sponLoad" class="guts">
+		<div id="leftrightBG"></div>
 		<div id="leftTop"><img src="res/feta_logo.png" id="sponLogo"></div>
-		<div id="rightTop"></div>
+		<div id="rightTop">
+			<div id="miejsceTop"></div>
+			<span class="sponTitle">Organizator:</span><br>
+			<span class="sponContent">
+				"Plama" Gdański Archipelag Kultury<br>
+				Biuro Organizacyjne Festiwalu<br>
+				ul. Pilotów 11, 80-460 Gdańsk<br>
+				tel. +48 58 57 42 47<br>
+			</span>
+			<span class="sponTitle">www.plama.pl / www.feta.pl</span><br>
+			<span class="sponContent">
+				www.facebook.com/FETAfestiwal!<br>
+				ww.facebook.com/plamaGAK<br>
+				<br>
+				<br>
+			</span>
+			<span class="sponMiniContent">
+				"Plama" Gdański Archipelag Kultury<br>
+				to ogranizator nie tylko FETY. Dowiedz się<br>
+				więcej o naszej działalności, zapisując się<br>
+				na listę subskrybentów naszego newslettera:<br>
+				<span style="color: #252525">www.plama.art.pl</span>
+			</span>
+
+		</div>
 		<div id="sponsorzy">
-		<img src="res/sponsorzy/asp_znak_w_kontrze_szary_ciemny.gif" class="sponsor">
-		<img src="res/sponsorzy/e-teatr_temp.jpg" class="sponsor">
-		<img src="res/sponsorzy/herb_logotyp_Marszalek_poziom_210x57mm_300dpi.jpg" class="sponsor">
-		<img src="res/sponsorzy/LOGA_MKIDN.jpg" class="sponsor">
-		<img src="res/sponsorzy/logo_CKU.jpg" class="sponsor">
-		<img src="res/sponsorzy/logo_mosir_podstawowy.jpg" class="sponsor">
-		<img src="res/sponsorzy/logo_wsb_poziom.jpg" class="sponsor">
-		<img src="res/sponsorzy/logo-czyste-miasto.jpg" class="sponsor">
-		<img src="res/sponsorzy/magazyn_Gaga.jpg" class="sponsor">
-		<img src="res/sponsorzy/magazyn_prestiz.jpg" class="sponsor">
-		<img src="res/sponsorzy/RGlogo-poziom bezfm.jpg" class="sponsor">
-		<img src="res/sponsorzy/www_gdansk_1_achro.JPG" class="sponsor">
-		<img src="res/sponsorzy/www_gdansk_1_mono.JPG" class="sponsor">
-		<img src="res/sponsorzy/ziaja-www.jpg" class="sponsor">
+		<img src="res/sponsorzy/sponsorzy.png" class="sponsor">
 		</div>
 	</div>
-</div>
+
+	<!--Mapa-->
+	<div id="mapaLoad" class="guts">
+
+	</div>
 <!--Preload-->
 
 </div>

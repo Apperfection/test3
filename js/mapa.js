@@ -1,0 +1,1 @@
+$('<iframe id="canvmapa" src="content/googleMaps.html">').appendTo('#mapaLoad');

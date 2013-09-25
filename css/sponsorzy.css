@@ -2,19 +2,34 @@
 	top: 0;
 	left: 0;
 	height: 50%;
-	width: 50%;
-	background-color:  green;	
+	width: 51%;
+	background-color:  transparent;	
 	position: absolute;
-	border-top-left-radius:10px;
-}
+	border-top-left-radius:10px;}
 #rightTop{
 	top: 0;
 	right: 0;
 	height: 50%;
-	width: 50%;
-	background-color:  blue;	
+	width: 51%;
+	background-color:  transparent;	
 	position: absolute;
 	border-top-right-radius:10px;
+	font-family: Helv;
+}
+#leftrightBG{
+	top: 0;
+	right: 0;
+	height: 50%;
+	width: 100%;
+	background-color:  #d8be8c;	
+	position: absolute;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	font-family: Helv;
+	background-image: url(../res/karton.png);
+}
+#miejsceTop{
+	height: 26px;
 }
 #sponsorzy{
 	bottom: 0;
@@ -29,17 +44,29 @@
 	overflow: hidden;
 }
 #sponLogo{
-	height: 100%;
+	height: 80%;
 	width: auto;
 	position: absolute;
 	margin:0 auto;
-	right: 10px;
+	margin-top: 40px;
+	right: 50px;
 }
 .sponsor{
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 5px;
-	height: 60px;
-	width: auto;
+	height: 100%;
+	width: 100%;
+}
+.sponTitle{
+	font-size: 17px;
+	color: #ff3333;
+}
+.sponContent{
+	font-size: 15px;
+	color: #252525;
+}
+.sponMiniContent{
+	font-size: 14px;
+	color: #252525;
 }

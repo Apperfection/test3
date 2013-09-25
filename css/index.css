@@ -147,12 +147,12 @@ body{
 	background-color: #e6ded3;
 	border-radius: 6px;
 }
-
+#preload{
+	visibility: hidden;
+}
 body:before{
     content: 
-    url(res/1.jpg) url(res/2.jpg) url(res/3.jpg) url(res/4.jpg) url(res/5.jpg) url(res/6.jpg) url(res/7.jpg) url(res/8.jpg) url(res/9.jpg) url(res/10.jpg) url(res/11.jpg) url(res/12.jpg) 
-    url(res/sponsorzy/asp_znak_w_kontrze_szary_ciemny.gif) url(res/sponsorzy/e-teatr_temp.jpg) url(res/sponsorzy/herb_logotyp_Marszalek_poziom_210x57mm_300dpi.jpg) url(res/sponsorzy/herb_logotyp_Marszalek_poziom_210x57mm_300dpi.jpg) url(res/sponsorzy/herb_logotyp_Marszalek_poziom_210x57mm_300dpi.jpg)
-    url(res/sponsorzy/LOGA_MKIDN.jpg) url(res/sponsorzy/logo_CKU.jpg) url(res/sponsorzy/logo_mosir_podstawowy.jpg) url(res/sponsorzy/logo_wsb_poziom.jpg) url(res/sponsorzy/logo-czyste-miasto.jpg) url(res/sponsorzy/magazyn_Gaga.jpg) url(res/sponsorzy/magazyn_prestiz.jpg) 
-    url(res/sponsorzy/www_gdansk_1_achro.JPG) url(res/sponsorzy/www_gdansk_1_mono.JPG) url(res/sponsorzy/ziaja-www.jpg) url(res/rightFade.png) url(res/leftFade.png);
+    url(../res/galeria/1.png) url(../res/galeria/2.png) url(../res/galeria/3.png) url(../res/galeria/4.png) url(../res/galeria/5.png) url(../res/galeria/6.png) url(../res/galeria/7.png) url(../res/galeria/8.png) url(../res/galeria/9.png) url(../res/galeria/10.png) url(../res/galeria/11.png) url(../res/galeria/12.png) url(../res/sponsorzy/sponsorzy.png) url(../res/rightFade.png) url(../res/leftFade.png)
+    url(../res/galeria/1d.png) url(../res/galeria/2d.png) url(../res/galeria/3d.png) url(../res/galeria/4d.png) url(../res/galeria/5d.png) url(../res/galeria/6d.png) url(../res/galeria/7d.png) url(../res/galeria/8d.png) url(../res/galeria/9d.png) url(../res/galeria/10d.png) url(../res/galeria/11d.png) url(../res/galeria/12d.png);
     display:none;
 }

@@ -27,11 +27,9 @@ function animateEle(e) {
 	nextCoordinates = ("0," + (wantedPosition.top)  + "px,0");
 	$("#currentArrow").anim({translate3d: nextCoordinates}, 0.6, 'ease-out');
 	$( ".front" ).load( href , function(){
-
 	$(".panelButton").on('click', animateEle);
 	$("#loads").css('z-index', -10);
 	$.getScript(hrefScipt);
-
 	previousIndex = theCheck;
 	} );
 }}
