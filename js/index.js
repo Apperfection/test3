@@ -69,8 +69,8 @@ function animateEle(e) {
 
 	if($(this).index() > previousIndex) { //lower
 		previousIndex = $(this).index();
-		$(back).load( href , function(){
-			$(back).anim({translate3d: '0,-100%,0'}, 0, 'none', function(){
+		$(back).load( href );
+			$(back).anim({translate3d: '0,-100%,0'}, 0, 'none');
 				$(front).css('z-index', 9);
 				$(back).css('z-index', 10);
 				$(back).anim({translate3d: '0,0,0'}, 0.6, 'ease-out');
@@ -84,14 +84,12 @@ function animateEle(e) {
 					$(".panelButton").on('click', animateEle);
 					$.getScript(hrefScipt);
 				});
-			});
-		});
 	}
 
 	else { //higher
 		previousIndex = $(this).index();
-			$(back).load(href, function(){
-			$(back).anim({translate3d: '0,100%,0'}, 0, 'none', function(){
+			$(back).load(href);
+			$(back).anim({translate3d: '0,100%,0'}, 0, 'none');
 				$(front).css('z-index', 9);
 				$(back).css('z-index', 10);
 				$(back).anim({translate3d: '0,0,0'}, 0.6, 'ease-out');
@@ -105,8 +103,7 @@ function animateEle(e) {
 					$(".panelButton").on('click', animateEle);
 					$.getScript(hrefScipt);
 				});
-			});
-		});
+			
 		} 
 	}
 
