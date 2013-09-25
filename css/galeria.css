@@ -8,12 +8,12 @@
 	background-color: #e6ded3;
 	width: 90%;
 	height: 160px;
+	-webkit-overflow-scrolling: touch;
 	overflow: scroll;
-	overflow-y: hidden;
 	display: inline-block;
 	max-height: 160px;
-}
 
+}
 #rightFade{
 	position: absolute;
 	height: 160px;
