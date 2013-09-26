@@ -3,7 +3,6 @@
 	left: 0;
 	height: 50%;
 	width: 51%;
-	background-color:  transparent;	
 	position: absolute;
 	border-top-left-radius:10px;}
 #rightTop{
@@ -11,22 +10,9 @@
 	right: 0;
 	height: 50%;
 	width: 51%;
-	background-color:  transparent;	
 	position: absolute;
 	border-top-right-radius:10px;
 	font-family: Helv;
-}
-#leftrightBG{
-	top: 0;
-	right: 0;
-	height: 50%;
-	width: 100%;
-	background-color:  #d8be8c;	
-	position: absolute;
-	border-top-right-radius:10px;
-	border-top-left-radius:10px;
-	font-family: Helv;
-	background-image: url(../res/karton.png);
 }
 #miejsceTop{
 	height: 26px;
@@ -41,6 +27,8 @@
 	text-align: center;
 	border-bottom-left-radius:10px;
 	border-bottom-right-radius:10px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
 	overflow: hidden;
 }
 #sponLogo{

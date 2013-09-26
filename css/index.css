@@ -146,6 +146,7 @@ body{
 	top: 3%;
 	background-color: #e6ded3;
 	border-radius: 6px;
+	ba
 }
 #preload{
 	visibility: hidden;
@@ -153,6 +154,7 @@ body{
 body:before{
     content: 
     url(../res/galeria/1.png) url(../res/galeria/2.png) url(../res/galeria/3.png) url(../res/galeria/4.png) url(../res/galeria/5.png) url(../res/galeria/6.png) url(../res/galeria/7.png) url(../res/galeria/8.png) url(../res/galeria/9.png) url(../res/galeria/10.png) url(../res/galeria/11.png) url(../res/galeria/12.png) url(../res/sponsorzy/sponsorzy.png) url(../res/rightFade.png) url(../res/leftFade.png)
-    url(../res/galeria/1d.png) url(../res/galeria/2d.png) url(../res/galeria/3d.png) url(../res/galeria/4d.png) url(../res/galeria/5d.png) url(../res/galeria/6d.png) url(../res/galeria/7d.png) url(../res/galeria/8d.png) url(../res/galeria/9d.png) url(../res/galeria/10d.png) url(../res/galeria/11d.png) url(../res/galeria/12d.png);
+    url(../res/galeria/1d.png) url(../res/galeria/2d.png) url(../res/galeria/3d.png) url(../res/galeria/4d.png) url(../res/galeria/5d.png) url(../res/galeria/6d.png) url(../res/galeria/7d.png) url(../res/galeria/8d.png) url(../res/galeria/9d.png) url(../res/galeria/10d.png) url(../res/galeria/11d.png) url(../res/galeria/12d.png) url(../res/mapa/a.png) url(../res/mapa/b.png) url(../res/mapa/c.png) url(../res/mapa/d.png)
+     url(../res/mapa/e.png) url(../res/mapa/f.png) url(../res/mapa/g.png) url(../res/mapa/h.png) url(../res/mapa/i1.png) url(../res/mapa/i2.png) url(../res/mapa/j.png) url(../res/mapa/k.png) url(../res/mapa/l.png) url(../res/mapa/m.png) url(../res/mapa/n.png);
     display:none;
 }
